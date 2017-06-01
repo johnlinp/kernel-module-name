@@ -1,5 +1,5 @@
 APP = get-32 get-64
-CFLAGS += -Wall
+CFLAGS += -Wall -std=c99
 
 all: $(APP)
 
